@@ -1,8 +1,0 @@
-https://youtu.be/Ws_h2106duA
-
-
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/PiyumalNipuna60/Face-book-clone.git
-git push -u origin master
