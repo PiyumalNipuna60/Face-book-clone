@@ -1,5 +1,18 @@
 import React from 'react'
 import './Header.css';
+import SearchIcon from '@mui/icons-material/Search';
+import HomeIcon from '@mui/icons-material/Home';
+import FlagIcon from '@mui/icons-material/Flag';
+import SubscriptionsOutlinedIcon from '@mui/icons-material/Subscriptions';
+import StorefrontOutlinedIcon from '@mui/icons-material/Storefront';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+import AddIcon from '@mui/icons-material/Add';
+import ForumIcon from '@mui/icons-material/Forum';
+import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDown';
+import { Avatar, IconButton } from '@mui/icons-material'
+
+
 
 function Header() {
   return (
@@ -11,24 +24,38 @@ function Header() {
             alt='logo'
           />
           <div className='header__input'>
+            <SearchIcon />
              <input type='text'
              placeholder='Search facebook' 
              className='header__input__text'
              />
           </div>
-
         </div>
 
         <div className='header__middle'>
-
+          <div className='header__options'>
+            <HomeIcon fontSize='large'/>
+          </div>
+          <div className='header__options'>
+            <FlagIcon fontSize='large'/>
+          </div>
+          <div className='header__options'>
+            <SubscriptionsOutlinedIcon fontSize='large'/>
+          </div>
+          <div className='header__options'>
+            <StorefrontOutlinedIcon fontSize='large'/>
+          </div>
+          <div className='header__options'>
+            <SupervisorAccountIcon fontSize='large'/>
+          </div>
         </div>
 
-        <div className='header__lright'>
+        <div className='header__right'>
 
         </div>
-
     </div>
   )
 }
 
 export default Header
+
