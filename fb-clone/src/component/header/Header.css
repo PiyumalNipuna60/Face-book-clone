@@ -8,3 +8,28 @@
     top: 0;
     box-shadow: 0px 5px 8px -9px rgba(0, 0,0,0.9);
 }
+
+.header__left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.header__left>img{
+    height: 40px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    background: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 33px;
+}
+
+.header__input>input{
+    border: none;
+    outline-width: 0;
+    background-color: transparent;
+}
