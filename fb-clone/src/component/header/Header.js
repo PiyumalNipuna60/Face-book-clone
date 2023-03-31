@@ -10,7 +10,7 @@ import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDown';
-import { Avatar, IconButton } from '@mui/icons-material'
+import { Avatar, IconButton } from '@mui/material'
 
 
 
@@ -51,7 +51,24 @@ function Header() {
         </div>
 
         <div className='header__right'>
+          <div className='header__info'>
+            <Avatar />
+            <h4>Username</h4>
+          </div>
+          <IconButton>
+              <AddIcon />
+          </IconButton>
+          <IconButton>
+              <ForumIcon />
+          </IconButton>
+          <IconButton>
+              <NotificationsActiveIcon />
+          </IconButton>
+          <IconButton>
+              <ArrowDropDownOutlinedIcon />
+          </IconButton>
 
+       
         </div>
     </div>
   )
