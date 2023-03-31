@@ -17,7 +17,6 @@ import { Avatar, IconButton } from '@mui/material'
 function Header() {
   return (
     <div className='header'>
-        Hy how are you.
         <div className='header__left'>
           <img 
             src='https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/150px-Facebook_f_logo_%282021%29.svg.png'
