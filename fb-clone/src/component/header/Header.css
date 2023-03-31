@@ -33,3 +33,25 @@
     outline-width: 0;
     background-color: transparent;
 }
+
+
+/* header__middle */
+
+.header__middle{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header__options:hover{
+background-color: #eff2f5;
+border-radius: 10px;
+align-items: center;
+padding: 0 30px;
+border-bottom: none;
+}
+
+.header__options> .MuiSvgIcon-root{
+color: gray;
+}
