@@ -1,8 +1,9 @@
 import React from 'react'
 
-function SideBarRow() {
+function SideBarRow({src,url,title}) {
   return (
-    <div className='sideBarRow'>S
+    <div className='sideBarRow'>
+
         ideBarRow</div>
   )
 }

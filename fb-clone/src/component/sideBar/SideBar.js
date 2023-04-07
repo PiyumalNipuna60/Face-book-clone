@@ -1,13 +1,13 @@
 import React from 'react'
-import SideBarRow from '../sideBarRow/SideBarRow'
+import SideBarRow from '../sideBarRow/SideBarRow';
 
 function SideBar() {
   return (
     <div className='sidebar'>
          <div className='sidebar__top'>
-         <SidebarRow 
-                    src = {user.photoURL}
-                    title = {user.displayName}
+               <SidebarRow 
+                    src = {"https://avatars0.githubusercontent.com/u/56448109?s=48&v=4"}
+                    title = {"Code with piyumal"}
                 />
                 <SidebarRow 
                     url = "https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/kOxV5aCYUAE.png"
