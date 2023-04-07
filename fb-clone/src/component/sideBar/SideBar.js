@@ -111,7 +111,12 @@ function SideBar() {
                 />
          </div>
          <div className='sidebar__bottom'>
-
+            <div className='sidebar_-bottom--title'>
+               <h3>Your short cut</h3>
+            </div>
+            <div className='sidebar__bottom--content'>
+                
+            </div>
          </div>
     </div>
   )
