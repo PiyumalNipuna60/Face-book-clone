@@ -44,6 +44,13 @@
     cursor: pointer;
 }
 
+.header__options{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
 .header__options:hover{
 background-color: #eff2f5;
 border-radius: 10px;
@@ -61,6 +68,19 @@ color: gray;
 
 }
 
+
+/* header__right */
+
 .header__right{
     display: flex;
+}
+
+.header__info{
+    display: flex;
+    align-items: center;
+}
+
+.header__info>h4{
+margin-left: 10px;
+
 }
