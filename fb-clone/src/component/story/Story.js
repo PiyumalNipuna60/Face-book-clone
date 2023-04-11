@@ -1,12 +1,14 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
+import './Story.css';
+
 
 
 function Story({image,profileSrc,title}) {
   return (
     <div 
      style={{backgroundImage:`url(${image})`,
-     backgroundRepeat:"no-repeat"
+     backgroundRepeat:"no-repeat",
     }}
     className='story'>
        <Avatar className="story__avatar" src={profileSrc}
