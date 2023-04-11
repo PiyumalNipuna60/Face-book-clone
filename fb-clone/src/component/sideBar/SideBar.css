@@ -3,3 +3,11 @@
 width: 1000%;
 flex: 0.33%;
 }
+
+.sidebar> .sidebar__top{
+    height: 40vh;
+    width: 1005;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
