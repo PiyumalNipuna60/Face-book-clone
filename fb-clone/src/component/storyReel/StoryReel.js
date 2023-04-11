@@ -1,8 +1,12 @@
 import React from 'react'
+import './StoryReel.css';
+
 
 function StoryReel() {
   return (
-    <div>StoryReel</div>
+    <div className='storyReel'> 
+        StoryReel
+    </div>
   )
 }
 

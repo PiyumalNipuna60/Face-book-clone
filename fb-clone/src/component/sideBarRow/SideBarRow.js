@@ -1,4 +1,5 @@
 import React from 'react'
+import './SideBarRow.css';
 
 function SideBarRow({src,url,title}) {
   return (
