@@ -20,3 +20,10 @@ flex: 0.33%;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.sidebar> .sidebar__bottom{
+    height: 40vh;
+    width: 100%;
+    overflow: scroll;
+}
+
