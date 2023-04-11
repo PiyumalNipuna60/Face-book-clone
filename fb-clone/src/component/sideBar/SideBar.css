@@ -30,3 +30,8 @@ flex: 0.33%;
 .sidebar__bottom::-webkit-scrollbar{
     display: none;
 }
+
+.sidebar__bottom{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
