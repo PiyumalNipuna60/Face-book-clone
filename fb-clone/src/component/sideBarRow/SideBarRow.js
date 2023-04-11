@@ -1,7 +1,7 @@
 import React from 'react'
 import './SideBarRow.css';
 
-function SideBarRow({src,url,title}) {
+function SideBarRow({}) {
   return (
     <div className='sideBarRow'>
 
