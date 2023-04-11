@@ -27,3 +27,6 @@ flex: 0.33%;
     overflow: scroll;
 }
 
+.sidebar__bottom::-webkit-scrollbar{
+    display: none;
+}
